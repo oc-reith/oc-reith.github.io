@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="car">
+
+ <header class="car-header">
+  <h1 class="car-title"><a class="car-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+ </header>
+
+ <section class="car-content">
+
+  <img src='{{ page.images[0].url }}'>
+
+  <dl>
+    {% if page.year != "" and page.year != nil %}<dt>Baujahr</dt><dd>{{ page.year }}</dd>{% endif %}
+    {% if page.ccm != "" and page.ccm != nil %}<dt>Hubraum</dt><dd>{{ page.ccm }} cm³</dd>{% endif %}
+    {% if page.kw != "" and page.kw != nil %}<dt>KW</dt><dd>{{ page.kw }}</dd>{% endif %}
+    {% if page.ps != "" and page.ps != nil %}<dt>PS</dt><dd>{{ page.ps }}</dd>{% endif %}
+  </dl>
+
+  {{ content }}
+</section>
+
+</div>

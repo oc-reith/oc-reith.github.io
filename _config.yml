@@ -1,8 +1,26 @@
 # Site settings
 title: Oldtimerclub Reith im Alpbachtal
 description:  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://oc-reith.github.io" # the base hostname & protocol for your site
+baseurl: ''
+url: http://oc-reith.github.io
 
 # Build settings
 markdown: kramdown
+
+# Exclusions
+exclude: [
+  '.gitignore',
+  'CNAME',
+  'bower.json',
+  'bower_components',
+  'Gemfile',
+  'Gemfile.lock',
+  'node_modules',
+  'package.json'
+]
+
+# Collections
+collections:
+  cars:
+    output: true
+    permalink: /fahrzeuge/:path/

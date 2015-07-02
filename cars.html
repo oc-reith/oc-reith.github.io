@@ -1,0 +1,27 @@
+---
+layout: default
+title: Fahrzeuge
+permalink: /fahrzeuge/
+---
+<div class="home">
+ <h1 class="page-heading">Fahrzeuge</h1>
+ <ul class="post-list">
+  {% for car in site.cars %}
+   <li>
+    <h2>
+     <a class="post-link" href="{{ car.url | prepend: site.baseurl }}">{{ car.title }}</a>
+    </h2>
+
+
+    <img src='{{ car.images[0].url }}' alt='{{ car.make }} {{ car.type }}'>
+
+
+    {% if car.owner != "" and car.owner != nil %}
+    <p>Besitzer: {{ car.owner }}
+    {% endif %}
+
+
+   </li>
+  {% endfor %}
+ </ul>
+</div>
