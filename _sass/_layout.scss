@@ -1,6 +1,7 @@
 html, body {
-  margin: 0;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -139,44 +140,51 @@ html, body {
  * Site footer
  */
 
-.content-wrapper {
-	position: relative;
-	min-height: 100%;
-	margin: 0 auto (-$footer-height);
-
-	.push {
-		height: $footer-height;
-	}
+body {
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .site-footer {
-	padding-top: 1.5rem;
 	background: $footer-background-color;
 	color: $footer-text-color;
 	border-top: 1px solid darken($footer-background-color, 10%);
 	
-	position: relative;
-	margin: 0 auto;
-	height: $footer-height;
+	.wrapper {
+	  padding-top: 1.5rem;
+	  padding-bottom: 1.5rem;
+	  
+	  > :last-child {
+	    margin-bottom: 0;
+	  }
+	}
 }
 
-@include media-query($phone) {
-  .site-footer,
-  .content-wrapper .push {
-    height: $footer-height-mobile;
-  }
-  .content-wrapper {
-	  margin-bottom: (-$footer-height-mobile);
-  }
+.site-header,
+.site-content,
+.site-footer {
+  display: table-row;
+  height: 1px;
+  @extend %clearfix;
 }
+
+
+.site-content {
+  height: 100%;
+}
+
+
+
 
 
 /**
  * Site Content
  */
 
-.site-content {
-	margin-top: 1.5rem;
+.site-content > .wrapper {
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
 }
 
 
