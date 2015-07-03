@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+@charset 'utf-8';
 
 
 
@@ -15,7 +15,7 @@ $spacing-unit: 30px;
 
 $text-color: #111;
 $background-color: #fdfdfd;
-$brand-color: #33241F;
+$logo-color: #33241f;
 
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -24,10 +24,11 @@ $grey-color-dark: darken($grey-color, 25%);
 // Width of the content area
 $content-width:  800px;
 
-$phone:     500px;
-$on-laptop:    800px;
+$phone: 500px;
+$on-laptop: 800px;
 
 
+$link-color: #0088ff;
 
 $menu-link-text-color: #000;
 $menu-link-background-color: #fff;
@@ -36,10 +37,9 @@ $menu-link-border-radius: 5px;
 
 $footer-height: 8rem;
 $footer-height-mobile: 14rem;
-$footer-background-color: $brand-color;
+$footer-background-color: $logo-color;
 $footer-text-color: lighten($footer-background-color, 50%);
 
-$logo-color: $brand-color;
 
 
 // Using media queries with like this:
@@ -59,6 +59,6 @@ $logo-color: $brand-color;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "layout"
+    'base',
+    'layout'
 ;
