@@ -75,11 +75,13 @@ html, body {
   	  text-align: center;
 	  border: 1px solid $menu-link-background-color-hover;
       border-radius: $menu-link-border-radius;
-
-	  &:hover {
-		  background-color: $menu-link-background-color-hover;
-	  }
     }
+
+	&.current > a,
+	> a:hover {
+	  background-color: $menu-link-background-color-hover;
+	  border-color: darken($menu-link-background-color-hover, 10%);
+	}
   }
 }
 

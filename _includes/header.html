@@ -5,9 +5,12 @@
   	  </div>
   	  <div 'nav-wrapper'>
           <nav class='site-nav' role=navigation>
-            <ul class='trigger'>
-            {% for page in site.pages %}{% if page.title %}<li><a class='menu-link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></li>
-            {% endif %}{% endfor %}</ul>
+	        <ul>{% assign current = page.url | downcase | split: '/' %}
+	          <li{% if current[1] == nil %} class='current'{% endif %}><a href='/'>Home</a></li>
+	          <li{% if current[1] == 'blog' %} class='current'{% endif %}><a href='/blog/'>Blog</a></li>
+	          <li{% if current[1] == 'fahrzeuge' %} class='current'{% endif %}><a href='/fahrzeuge/'>Fahrzeuge</a></li>
+	          <li{% if current[1] == 'statuten.html'  %} class='current'{% endif %}><a href='/statuten.html'>Statuten</a></li>
+	        </ul>
           </nav>
         </div>
   	</div>
