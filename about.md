@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Das sind wir
 permalink: /about.html
 ---
 
