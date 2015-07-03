@@ -1,10 +1,14 @@
-<header class='site-header'>
-  <div class='wrapper'>
-    <a class='site-logo' href='{{ site.baseurl }}/'><img src='/img/logo.svg' alt='{{ site.title }}'></a>
-    <nav class='site-nav'>
-      <ul class='trigger'>
-      {% for page in site.pages %}{% if page.title %}<li><a class='menu-link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></li>
-      {% endif %}{% endfor %}</ul>
-    </nav>
-  </div>
-</header>
+    <header class='site-header' role='banner'>
+      <div class='wrapper'>
+  	  <div class='logo-wrapper'>
+          <a class='site-logo' href='{{ site.baseurl }}/'>{% include logo.svg %}</a>
+  	  </div>
+  	  <div 'nav-wrapper'>
+          <nav class='site-nav' role=navigation>
+            <ul class='trigger'>
+            {% for page in site.pages %}{% if page.title %}<li><a class='menu-link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></li>
+            {% endif %}{% endfor %}</ul>
+          </nav>
+        </div>
+  	</div>
+    </header>

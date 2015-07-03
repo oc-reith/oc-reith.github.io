@@ -3,7 +3,6 @@ layout: page
 title: Statuten
 permalink: /statuten.html
 ---
-
 ## 1. Name
 
 Der Verein führt den Namen „Oldtimerclub Reith im Alpbachtal“, abgekürzt auch „Oldtimerclub Reith i. A.“ mit der Kurzform „OCR“.
@@ -180,4 +179,5 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
  1. Die freiwillige Auflösung des Vereins kann nur in einer, zu diesem Zweck einberufenen, außerordentlichen Generalversammlung und nur mit Zweidrittelmehrheit der abgegebenen gültigen Stimmen beschlossen werden.
  2. Diese Generalversammlung hat auch - sofern Vereinsvermögen vorhanden ist - über die Abwicklung zu beschließen. Insbesondere hat sie einen Abwickler zu berufen und Beschluss darüber zu fassen, wem dieser das nach Abdeckung der Passiven verbleibende Vereinsvermögen zu übertragen hat. Dieses Vermögen kann soweit an die Mitglieder verteilt werden, als es den Wert der von diesen geleisteten Einlagen nicht übersteigt. Das darüber hinaus verbleibende Vermögen soll Vereinen zufallen, die gleiche oder ähnliche Zwecke wie dieser Verein verfolgen, und/oder wohltätigen Vereinen oder Organisationen.
 
-Reith im Alpbachtal, am 26. Juni 2015
+
+*Reith im Alpbachtal, am 26. Juni 2015*

@@ -7,26 +7,38 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:  16px;
+$base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:   30px;
+$spacing-unit: 30px;
 
-$text-color:    #111;
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:   #2a7ae2;
+$brand-color: #33241F;
 
-$grey-color:    #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:  800px;
 
-$on-palm:     600px;
+$phone:     800px;
 $on-laptop:    800px;
 
+
+
+$menu-link-text-color: #000;
+$menu-link-background-color: #fff;
+$menu-link-background-color-hover: darken($menu-link-background-color, 10%);
+$menu-link-border-radius: 5px;
+
+$footer-height: 8rem;
+$footer-background-color: $brand-color;
+$footer-text-color: lighten($footer-background-color, 50%);
+
+$logo-color: $brand-color;
 
 
 // Using media queries with like this:

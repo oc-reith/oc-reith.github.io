@@ -3,11 +3,10 @@ layout: default
 ---
 <div class="car">
 
- <header class="car-header">
-  <h1 class="car-title"><a class="car-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
- </header>
-
  <section class="car-content">
+   <header class="car-header">
+    <h1 class="car-title"><a class="car-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+   </header>
 
   <img src='{{ page.images[0].url }}'>
 
