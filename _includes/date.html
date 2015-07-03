@@ -1,5 +1,5 @@
-{% assign m = date | date: "%-m" %}
-{{ date | date: "%-d" }}
+{% assign m = include.date | date: "%-m" %}
+{{ include.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Januar
   {% when '2' %}Februar
@@ -14,4 +14,4 @@
   {% when '11' %}November
   {% when '12' %}Dezember
 {% endcase %}
-{{ date | date: "%Y" }}
+{{ include.date | date: "%Y" }}
