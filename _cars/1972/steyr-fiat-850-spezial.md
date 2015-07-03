@@ -7,7 +7,9 @@ type: 850 Spezial
 year: 1972
 ccm: 850
 ps: 48
-owner: Anton Oberladstätter
+owner: 
+  name: Anton Oberladstätter
+  gender: m
 images:
-- url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Fiat_850_Special_1968.jpg
+- url: /img/steyr-fiat-850-spezial.jpg
 ---

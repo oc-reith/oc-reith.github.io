@@ -8,7 +8,9 @@ year: 1970
 ccm: 1900
 kw: 66
 ps: 90
-owner: Markus Lasinger
+owner:
+  name: Markus Lasinger
+  gender: m
 info: restauriert 2014/15
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Opel_GT.JPG

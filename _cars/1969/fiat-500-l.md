@@ -7,7 +7,9 @@ type: 500 L
 year: 1969
 ccm: 650
 ps: 21
-owner: Markus Reiter
+owner:
+  name: Markus Reiter
+  gender: m
 images:
   - url: /img/fiat-500-l.jpg
 ---

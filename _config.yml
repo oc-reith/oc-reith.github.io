@@ -25,4 +25,4 @@ exclude: [
 collections:
   cars:
     output: true
-    permalink: /fahrzeuge/:path/
+    permalink: /fahrzeuge/:path.html
