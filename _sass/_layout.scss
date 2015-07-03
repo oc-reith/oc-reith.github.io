@@ -160,6 +160,15 @@ html, body {
 	height: $footer-height;
 }
 
+@include media-query($phone) {
+  .site-footer,
+  .content-wrapper .push {
+    height: $footer-height-mobile;
+  }
+  .content-wrapper {
+	  margin-bottom: (-$footer-height-mobile);
+  }
+}
 
 
 /**
