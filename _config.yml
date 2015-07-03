@@ -6,6 +6,8 @@ url: http://oc-reith.github.io
 
 # Build settings
 markdown: kramdown
+sass:
+  style: :compressed
 
 # Exclusions
 exclude: [
