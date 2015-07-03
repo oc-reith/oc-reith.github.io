@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Statuten
-permalink: /statuten/
+permalink: /statuten.html
 ---
 
 ## 1. Name
