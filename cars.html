@@ -3,13 +3,12 @@ layout: default
 title: Fahrzeuge
 permalink: /fahrzeuge/
 ---
-<section class="page cars">
- <h1 class="page-heading">Fahrzeuge</h1>
-  {% for car in site.cars %}
-   <section class='car'>
-    <h2><a class="car-link" href="{{ car.url | prepend: site.baseurl }}">{% if car.year != "" and car.year != nil %}{{ car.year | append: '-01-01' | date: "'%yer" }}{% endif %} {{ car.title }}</a></h2>
-    <img src='{{ car.images[0].url }}' alt='{{ car.make }} {{ car.type }}'>
-    {% if car.owner.name != "" and car.owner.name != nil %}<p>Fahrer{% if car.owner.gender == 'f' %}in{% endif %}: {{ car.owner.name }}{% endif %}
-   </section>
-  {% endfor %}
-</section>
+      <section class="page cars">
+        <h1 class="heading">Fahrzeuge</h1>
+        {% for car in site.cars %}
+        <section class='car'>
+          <h2><a class="car-link" href="{{ car.url | prepend: site.baseurl }}">{% if car.year != "" and car.year != nil %}{{ car.year | append: '-01-01' | date: "'%yer" }}{% endif %} {{ car.title }}</a></h2>
+          <img src='{{ car.images[0].url | prepend: site.baseurl }}' alt='{{ car.make }} {{ car.type }}'>{% if car.owner.name != "" and car.owner.name != nil %}
+          <p>Fahrer{% if car.owner.gender == 'f' %}in{% endif %}: {{ car.owner.name }}{% endif %}
+        </section>{% endfor %}
+      </section>

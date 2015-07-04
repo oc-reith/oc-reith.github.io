@@ -178,9 +178,6 @@ body {
 }
 
 
-
-
-
 /**
  * Site Content
  */
@@ -190,35 +187,54 @@ body {
 	margin-bottom: 4rem;
 }
 
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page {
+  
+  > :matches(article, section) {
+    &:not(:first-of-type) {
+      margin-top: 2rem;
+    }
+  }
+
+  > footer {
+    margin-top: 2rem;
+  }
+
+  > section,
+  > article,
+  > footer {
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 
 /**
  * Posts
  */
 
+.rss-subscribe {
+  border-top: 1px solid $menu-link-background-color-hover;
+  padding-top: 1rem;
+}
 
 
 /**
  * Cars
  */
 
-.cars {
 
-  img {
-    min-width: 100%;
-  }
-  
-  section {
-  	
-	  :last-child {
-		  margin-bottom: 0;
-	  }
-  }
-}
 
-.page {
-	:matches(article, section) {
-  	  &:not(:first-of-type) {
-  		  margin-top: 2rem;
-  	  }
-	}
+
+/**
+ * Images
+ */
+
+img:not(:last-child) {
+  margin-bottom: .5rem;
 }

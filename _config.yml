@@ -19,7 +19,7 @@ exclude: [
   'Gemfile.lock',
   'node_modules',
   'package.json',
-  '_cars/unfinished/'
+  '_cars/0000/'
 ]
 
 # Collections

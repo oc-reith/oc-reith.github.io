@@ -3,17 +3,23 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<section class='page blog'>
-  <h1 class="page-heading">Neuigkeiten</h1>
-
-  {% for post in site.posts %}
-  <article>
-    <header>
-      <span class="post-meta">{% include date.html date=post.date %}</span>
-      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-    </header>
-    {{ post.excerpt }}
-  </article>
-  {% endfor %}
- <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> abonnieren</p>
-</section>
+      <section class='page blog'>
+        <h1 class='heading'>Neuigkeiten</h1>{% for post in site.posts %}
+        <article>
+          <header>
+            <span class='post-meta'>{% include date.html date=post.date %}</span>
+            <h2><a class='post-link' href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h2>
+          </header>
+            {% if post.content contains '<!--more-->' %}
+                {{ post.content | split:'<!--more-->' | first }}
+            {% else %}
+                {{ post.excerpt }}
+            {% endif %}
+          <footer>
+		    <a href='{{ post.url | prepend: site.baseurl }}'>Weiterlesen … </a>
+		  </footer>
+        </article>{% endfor %}
+        <footer class='rss-subscribe'>
+          <p><a href='{{ '/feed.xml' | prepend: site.baseurl }}'>via RSS</a> abonnieren
+        </footer>
+      </section>

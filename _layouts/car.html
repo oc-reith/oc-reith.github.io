@@ -1,23 +1,15 @@
 ---
 layout: default
 ---
-<div class="car">
-
- <section class="car-content">
-   <header class="car-header">
-    <h1 class="car-title"><a class="car-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
-   </header>
-
-  <img src='{{ page.images[0].url }}'>
-
-  <dl>
-    {% if page.year != "" and page.year != nil %}<dt>Baujahr</dt><dd>{{ page.year }}</dd>{% endif %}
-    {% if page.ccm != "" and page.ccm != nil %}<dt>Hubraum</dt><dd>{{ page.ccm }} cm³</dd>{% endif %}
-    {% if page.kw != "" and page.kw != nil %}<dt>KW</dt><dd>{{ page.kw }}</dd>{% endif %}
-    {% if page.ps != "" and page.ps != nil %}<dt>PS</dt><dd>{{ page.ps }}</dd>{% endif %}
-  </dl>
-
-  {{ content }}
-</section>
-
-</div>
+      <section class="car">
+        <h1 class="heading"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+        <img src='{{ page.images[0].url | prepend: site.baseurl }}'>
+        <dl>{% if page.year != "" and page.year != nil %}
+          <dt>Baujahr</dt><dd>{{ page.year }}</dd>{% endif %}{% if page.ccm != "" and page.ccm != nil %}
+          <dt>Hubraum</dt><dd>{{ page.ccm }} cm³</dd>{% endif %}{% if page.kw != "" and page.kw != nil %}
+          <dt>KW</dt><dd>{{ page.kw }}</dd>{% endif %}{% if page.ps != "" and page.ps != nil %}
+          <dt>PS</dt><dd>{{ page.ps }}</dd>{% endif %}
+        </dl>{% assign c = content | strip_newlines %}{% if c != '' %}
+        {{ content }}{% endif %}{% for img in page.images %}{% if img != page.images[0] %}
+        <img src='{{ img.url | prepend: site.baseurl }}' alt='{{ img.alt }}'>{% endif %}{% endfor %}
+      </section>
