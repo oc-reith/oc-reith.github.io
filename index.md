@@ -3,6 +3,8 @@ layout: page
 title: Der Club
 permalink: /
 ---
+![](/img/club.jpg)
+
 Wir sind ein markenunabhängiger Tiroler Club von Freunden historischer Fahrzeuge. Die Mitglieder stammen aus Reith im Alpbachtal und Umgebung. Alte Automobile, Traktoren und Motorräder bilden unsere haupsächlichen Interessensgebiete.
 
 Wir restaurieren, pflegen und fahren Oldtimer getreu dem Motto: „Oldtimer sind keine Altlasten sondern fahrendes Kulturgut.“

@@ -11,5 +11,6 @@ owner:
   name: Hans Rieser
   gender: m
 images:
-- url: http://www.rofankurier.at/cms/images/phocagallery/Rolling_Oldies/thumbs/phoca_thumb_l_rolling%20oldies%202012%20008.jpg
+- url: /img/austin-healey-mk1-bn7.jpg
+- url: /img/austin-healey-mk1-bn7-emblem.jpg
 ---

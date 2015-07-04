@@ -13,5 +13,6 @@ owner:
   gender: m
 info: restauriert 2014/15
 images:
-  - url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Opel_GT.JPG
+  - url: /img/opel-gt-a-l.jpg
+  - url: /img/opel-gt-a-l-emblem.jpg
 ---

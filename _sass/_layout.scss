@@ -209,11 +209,16 @@ body {
   
   section {
   	
-	  &:not(:first-child) {
-		  margin-top: 2rem;
-	  }
 	  :last-child {
 		  margin-bottom: 0;
 	  }
   }
+}
+
+.page {
+	:matches(article, section) {
+  	  :not(:first-of-type) {
+  		  margin-top: 2rem;
+  	  }
+	}
 }

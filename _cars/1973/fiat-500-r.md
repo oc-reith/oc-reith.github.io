@@ -11,5 +11,5 @@ owner:
   name: Martin Reiter
   gender: m
 images:
-  - url: https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10511355_10202393353826131_9105305349019774791_n.jpg?oh=4aa13cf54df58820dcbf97297b139fcf&oe=56345BCF&dl=1
+  - url: /img/fiat-500-r.jpg
 ---

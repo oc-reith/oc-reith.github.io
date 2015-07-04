@@ -12,4 +12,5 @@ owner:
   gender: m
 images:
   - url: /img/fiat-500-l.jpg
+  - url: /img/fiat-500-l-emblem.jpg
 ---
