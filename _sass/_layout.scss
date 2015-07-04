@@ -217,7 +217,7 @@ body {
 
 .page {
 	:matches(article, section) {
-  	  :not(:first-of-type) {
+  	  &:not(:first-of-type) {
   		  margin-top: 2rem;
   	  }
 	}
