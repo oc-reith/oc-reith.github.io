@@ -2,8 +2,8 @@
 {% include head.html %}
 <body>
 {% include header.html %}
-  <div class="site-content">
-    <div class="wrapper">
+  <div class="site-content">{% assign current = page.url | downcase | split: '/' %}
+    <div class="wrapper{% if current[1] == 'fahrzeuge' %} cars{% endif %}">
 {{ content }}
     </div>
   </div>

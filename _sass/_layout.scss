@@ -86,7 +86,7 @@ html, body {
   }
 }
 
-@include media-query($phone) {
+@include media-query-max($phone) {
   .site-nav {
     
   ul {
@@ -228,7 +228,24 @@ body {
  * Cars
  */
 
-
+@include media-query-min($laptop) {
+  .wrapper.cars {
+    max-width: 1400px;
+  	
+    .car {
+  	  width: 48%;
+  	  float: left;
+  	  
+  	  &:nth-child(2n) {
+  		  margin-right: 4%;
+  	  }
+  	  
+  	  &:nth-of-type(2) {
+  		  margin-top: 0;
+  	  }
+    }
+  }
+}
 
 
 /**
