@@ -14,8 +14,8 @@ html, body {
  */
 
 .logo-wrapper {
-	text-align: center;
-	padding-top: 2rem;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 .site-logo > svg {
@@ -37,96 +37,96 @@ html, body {
   width: 100%;
   
   ul {
-	  margin: 0;
-	  padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   > ul {
-	position: relative;
-	margin-left: -50%;
-	clear: left;
-	float: right;
-	right: 50%;
-	
-	> li {
-		float: left;
-		display: block;
-		font-size: 15px;
-		position: relative;
-		left: 50%;
-	}
+  position: relative;
+  margin-left: -50%;
+  clear: left;
+  float: right;
+  right: 50%;
+  
+  > li {
+    float: left;
+    display: block;
+    font-size: 15px;
+    position: relative;
+    left: 50%;
+  }
   }
 
   li {
     list-style: none;
-	float: left;
-	display: block;
-	
-	&:not(:last-child) {
-		margin-right: 1rem;
-	}
+  float: left;
+  display: block;
+  
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
 
     > a {
-	  background-color: $menu-link-background-color;
-	  color: $menu-link-text-color;
-	  padding: .5rem 1rem;
-	  display: block;
-	  text-decoration: none;
-  	  text-align: center;
-	  border: 1px solid $menu-link-background-color-hover;
+    background-color: $menu-link-background-color;
+    color: $menu-link-text-color;
+    padding: .5rem 1rem;
+    display: block;
+    text-decoration: none;
+      text-align: center;
+    border: 1px solid $menu-link-background-color-hover;
       border-radius: $menu-link-border-radius;
     }
 
-	&.current > a,
-	> a:hover,
-	> a:active {
-	  background-color: $menu-link-background-color-hover;
-	  border-color: darken($menu-link-background-color-hover, 10%);
-	}
+  &.current > a,
+  > a:hover,
+  > a:active {
+    background-color: $menu-link-background-color-hover;
+    border-color: darken($menu-link-background-color-hover, 10%);
+  }
   }
 }
 
 @include media-query($phone) {
   .site-nav {
-	  
-	ul {
-	  width: 100%;
-	}
+    
+  ul {
+    width: 100%;
+  }
 
     li {
       width: 50%;
-	  
-	  a {
-	    border-radius: 0;
-	  }
+    
+    a {
+      border-radius: 0;
+    }
 
       &:not(:last-child) {
-	    margin-right: 0;
+      margin-right: 0;
       }
-	  
-	  &:first-child a {
-	    border-top-left-radius: $menu-link-border-radius;
-	  }
-	  
-	  &:nth-child(2) a {
-	    border-top-right-radius: $menu-link-border-radius;
-	  }
-	  
-	  &:nth-last-child(2) a {
-	    border-bottom-left-radius: $menu-link-border-radius;
-	  }
-	  
-	  &:last-child a {
-		  border-bottom-right-radius: $menu-link-border-radius;
-	  }
-	  
-	  &:not(:nth-last-child(2)):not(:last-child) a {
-		  border-bottom: none;
-	  }
-	  
-	  &:nth-child(2n) a {
-		  border-left: none;
-	  }
+    
+    &:first-child a {
+      border-top-left-radius: $menu-link-border-radius;
+    }
+    
+    &:nth-child(2) a {
+      border-top-right-radius: $menu-link-border-radius;
+    }
+    
+    &:nth-last-child(2) a {
+      border-bottom-left-radius: $menu-link-border-radius;
+    }
+    
+    &:last-child a {
+      border-bottom-right-radius: $menu-link-border-radius;
+    }
+    
+    &:not(:nth-last-child(2)):not(:last-child) a {
+      border-bottom: none;
+    }
+    
+    &:nth-child(2n) a {
+      border-left: none;
+    }
     }
   }
 }
@@ -135,7 +135,7 @@ html, body {
 
 
 .site-nav {
-	
+  
 }
 
 
@@ -150,18 +150,18 @@ body {
 }
 
 .site-footer {
-	background: $footer-background-color;
-	color: $footer-text-color;
-	border-top: 1px solid darken($footer-background-color, 10%);
-	
-	.wrapper {
-	  padding-top: 1.5rem;
-	  padding-bottom: 1.5rem;
-	  
-	  > :last-child {
-	    margin-bottom: 0;
-	  }
-	}
+  background: $footer-background-color;
+  color: $footer-text-color;
+  border-top: 1px solid darken($footer-background-color, 10%);
+  
+  .wrapper {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .site-header,
@@ -183,8 +183,8 @@ body {
  */
 
 .site-content > .wrapper {
-	margin-top: 2.5rem;
-	margin-bottom: 4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 .heading {

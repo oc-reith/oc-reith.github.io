@@ -16,8 +16,8 @@ permalink: /blog/
                 {{ post.excerpt }}
             {% endif %}
           <footer>
-		    <a href='{{ post.url | prepend: site.baseurl }}'>Weiterlesen … </a>
-		  </footer>
+            <a href='{{ post.url | prepend: site.baseurl }}'>Weiterlesen … </a>
+          </footer>
         </article>{% endfor %}
         <footer class='rss-subscribe'>
           <p><a href='{{ '/feed.xml' | prepend: site.baseurl }}'>via RSS</a> abonnieren
