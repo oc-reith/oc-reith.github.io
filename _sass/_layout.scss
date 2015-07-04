@@ -187,7 +187,7 @@ body {
 
 .site-content > .wrapper {
 	margin-top: 2.5rem;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 
@@ -205,5 +205,15 @@ body {
 
   img {
     min-width: 100%;
+  }
+  
+  section {
+  	
+	  &:not(:first-child) {
+		  margin-top: 2rem;
+	  }
+	  :last-child {
+		  margin-bottom: 0;
+	  }
   }
 }
