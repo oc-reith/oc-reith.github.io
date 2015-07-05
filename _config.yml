@@ -9,6 +9,10 @@ markdown: kramdown
 sass:
   style: :compressed
 
+# Sitemap Plugin
+gems:
+  - jekyll-sitemap
+
 # Exclusions
 exclude: [
   '.gitignore',
