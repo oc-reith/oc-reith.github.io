@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Fiat 500 Lusso
 
 make: Fiat

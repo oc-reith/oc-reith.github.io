@@ -229,10 +229,10 @@ body {
  */
 
 @include media-query-min($laptop) {
-  .wrapper.cars {
+  .vehicle-overview {
     max-width: 1400px;
   	
-    .car {
+    .vehicle {
   	  width: 48%;
   	  float: left;
   	  

@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Solex 2200
 
 make: Solex

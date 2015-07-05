@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Mercedes-Benz W126
 
 make: Mercedes-Benz

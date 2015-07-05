@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Holder 310 D
 
 make: Holder

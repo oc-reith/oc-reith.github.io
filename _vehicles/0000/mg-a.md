@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  MG 8
 
 make: MG

@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Opel GT A-L
 
 make: Opel

@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Morgan 8
 
 make: Morgan

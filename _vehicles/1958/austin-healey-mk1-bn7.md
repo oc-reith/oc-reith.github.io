@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Austin Healey MK1 BN7
 
 make: Austin Healey

@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Steyr-Puch Haflinger
 
 make: Steyr-Puch

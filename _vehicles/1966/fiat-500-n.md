@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Fiat Nuova 500
 
 make: Fiat

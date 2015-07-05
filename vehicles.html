@@ -1,0 +1,14 @@
+---
+layout: default
+title: Fahrzeuge
+permalink: /fahrzeuge/
+---
+      <section class="page vehicles">
+        <h1 class="heading">Fahrzeuge</h1>
+        {% for vehicle in site.vehicles %}
+        <section class='vehicle'>
+          <h2><a href="{{ vehicle.url | prepend: site.baseurl }}">{% if vehicle.year != "" and vehicle.year != nil %}{{ vehicle.year | append: '-01-01' | date: "'%yer" }}{% endif %} {{ vehicle.title }}</a></h2>
+          <img src='{{ vehicle.images[0].url | prepend: site.baseurl }}' alt='{{ vehicle.make }} {{ vehicle.type }}'>{% if vehicle.owner.name != "" and vehicle.owner.name != nil %}
+          <p>Fahrer{% if vehicle.owner.gender == 'f' %}in{% endif %}: {{ vehicle.owner.name }}{% endif %}
+        </section>{% endfor %}
+      </section>

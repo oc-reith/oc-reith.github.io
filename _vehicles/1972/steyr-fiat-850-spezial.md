@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Steyr Fiat 850 Spezial
 
 make: Steyr Fiat

@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  Jeep Willis Overland
 
 make: Jeep

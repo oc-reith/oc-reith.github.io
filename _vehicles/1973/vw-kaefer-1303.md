@@ -1,5 +1,5 @@
 ---
-layout: car
+layout: vehicle
 title:  VW Käfer 1303
 
 make: VW
