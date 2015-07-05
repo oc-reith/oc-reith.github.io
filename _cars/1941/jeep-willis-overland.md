@@ -1,6 +1,6 @@
 ---
 layout: car
-title:  Jeep Willis
+title:  Jeep Willis Overland
 
 make: Jeep
 type: Willis Overland
