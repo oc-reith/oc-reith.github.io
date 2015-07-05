@@ -8,7 +8,7 @@ owner:
   name: Andrea Gager
   gender: f
 images:
-  - url: /img/morgan-8.jpg
-  - url: /img/morgan-8-emblem.jpg
-  - url: /img/morgan-8-felge.jpg
+  - url: morgan-8.jpg
+  - url: morgan-8-emblem.jpg
+  - url: morgan-8-felge.jpg
 ---

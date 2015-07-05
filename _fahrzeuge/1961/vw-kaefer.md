@@ -12,7 +12,7 @@ owner:
   gender: m
 info: Export
 images:
-  - url: /img/vw-kaefer.jpg
-  - url: /img/vw-kaefer-emblem.jpg
-  - url: /img/vw-kaefer-felge.jpg
+  - url: vw-kaefer.jpg
+  - url: vw-kaefer-emblem.jpg
+  - url: vw-kaefer-felge.jpg
 ---

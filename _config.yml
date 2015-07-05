@@ -24,11 +24,11 @@ exclude: [
   'Gemfile.lock',
   'node_modules',
   'package.json',
-  '_vehicles/fahrzeuge/0000/'
+  '_fahrzeuge/0000'
 ]
 
 # Collections
 collections:
-  vehicles:
+  fahrzeuge:
     output: true
-    permalink: /:path.html
+    permalink: /fahrzeuge/:path.html

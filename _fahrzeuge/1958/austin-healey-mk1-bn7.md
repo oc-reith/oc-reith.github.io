@@ -11,6 +11,6 @@ owner:
   name: Hans Rieser
   gender: m
 images:
-- url: /img/austin-healey-mk1-bn7.jpg
-- url: /img/austin-healey-mk1-bn7-emblem.jpg
+- url: austin-healey-mk1-bn7.jpg
+- url: austin-healey-mk1-bn7-emblem.jpg
 ---

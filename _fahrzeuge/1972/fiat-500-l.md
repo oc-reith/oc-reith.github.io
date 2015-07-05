@@ -12,6 +12,6 @@ owner:
   name: Hannes Oberladstätter
   gender: m
 images:
-  - url: /img/fiat-500-l-1972.jpg
-  - url: /img/fiat-500-l-1972-emblem.jpg
+  - url: fiat-500-l.jpg
+  - url: fiat-500-l-emblem.jpg
 ---

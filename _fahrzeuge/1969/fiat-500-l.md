@@ -11,6 +11,6 @@ owner:
   name: Markus Reiter
   gender: m
 images:
-  - url: /img/fiat-500-l.jpg
-  - url: /img/fiat-500-l-emblem.jpg
+  - url: fiat-500-l.jpg
+  - url: fiat-500-l-emblem.jpg
 ---

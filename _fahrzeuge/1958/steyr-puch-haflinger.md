@@ -11,5 +11,5 @@ owner:
   name: Dietrich Reiter
   gender: m
 images:
-  - url: /img/steyr-puch-haflinger.jpg
+  - url: steyr-puch-haflinger.jpg
 ---

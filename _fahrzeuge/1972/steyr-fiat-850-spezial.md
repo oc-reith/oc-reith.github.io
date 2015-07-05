@@ -11,5 +11,5 @@ owner:
   name: Anton Oberladstätter
   gender: m
 images:
-- url: /img/steyr-fiat-850-spezial.jpg
+- url: steyr-fiat-850-spezial.jpg
 ---

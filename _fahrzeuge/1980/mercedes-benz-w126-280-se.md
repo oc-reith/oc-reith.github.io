@@ -13,6 +13,6 @@ owner:
   name: Barbara Oberladstätter
   gender: f
 images:
-  - url: /img/mercedes-benz-w126-280.jpg
-  - url: /img/mercedes-benz-w126-280-emblem.jpg
+  - url: mercedes-benz-w126-280-se.jpg
+  - url: mercedes-benz-w126-280-se-emblem.jpg
 ---

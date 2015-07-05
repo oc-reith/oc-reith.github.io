@@ -9,7 +9,7 @@ owner:
   name: Manfred Gager
   gender: m
 images:
-  - url: /img/mg-a.jpg
-  - url: /img/mg-a-emblem.jpg
-  - url: /img/mg-a-felge.jpg
+  - url: mg-a.jpg
+  - url: mg-a-emblem.jpg
+  - url: mg-a-felge.jpg
 ---

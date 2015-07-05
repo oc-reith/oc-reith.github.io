@@ -11,7 +11,7 @@ owner:
   name: Franz Madersbacher
   gender: m
 images:
-  - url: /img/solex-2200.jpg
+  - url: solex-2200.jpg
 ---
 
 

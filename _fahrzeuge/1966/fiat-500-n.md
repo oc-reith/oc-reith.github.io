@@ -11,7 +11,7 @@ owner:
   name: Veronika Rieser
   gender: f
 images:
-  - url: /img/fiat-500-n.jpg
-  - url: /img/fiat-500-n-front.jpg
-  - url: /img/fiat-500-n-emblem.jpg
+  - url: fiat-500-n.jpg
+  - url: fiat-500-n-front.jpg
+  - url: fiat-500-n-emblem.jpg
 ---

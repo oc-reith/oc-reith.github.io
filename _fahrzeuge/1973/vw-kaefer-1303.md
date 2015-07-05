@@ -11,6 +11,6 @@ owner:
   name: Hannes Oberladstätter
   gender: m
 images:
-  - url: /img/vw-kaefer-1303-l.jpg
-  - url: /img/vw-kaefer-1303-l-emblem.jpg
+  - url: vw-kaefer-1303.jpg
+  - url: vw-kaefer-1303-emblem.jpg
 ---

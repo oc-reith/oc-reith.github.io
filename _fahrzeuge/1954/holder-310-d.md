@@ -11,5 +11,5 @@ owner:
   name: Franz Madersbacher
   gender: m
 images:
-  - url: /img/holder-310-d.jpg
+  - url: holder-310-d.jpg
 ---
