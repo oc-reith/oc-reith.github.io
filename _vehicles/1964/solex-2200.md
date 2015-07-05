@@ -6,7 +6,7 @@ make: Solex
 type: 2200
 year: 1964
 ccm: 49
-ps: 0,7
+ps: 0.7
 owner: 
   name: Franz Madersbacher
   gender: m

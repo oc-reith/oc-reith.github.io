@@ -66,16 +66,16 @@ html, body {
     margin-right: 1rem;
   }
 
-    > a {
+  > a {
     background-color: $menu-link-background-color;
     color: $menu-link-text-color;
     padding: .5rem 1rem;
     display: block;
     text-decoration: none;
-      text-align: center;
+    text-align: center;
     border: 1px solid $menu-link-background-color-hover;
-      border-radius: $menu-link-border-radius;
-    }
+    border-radius: $menu-link-border-radius;
+  }
 
   &.current > a,
   > a:hover,
@@ -229,22 +229,37 @@ body {
  * Cars
  */
 
+.vehicle {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    background: darken($menu-link-background-color, 2.5%);
+    display: inline-table;
+    
+    td {
+      padding: .5rem .75rem;
+      border: 1px solid darken($menu-link-background-color-hover, 2.5%);
+    }
+  }
+}
+
 @include media-query-min($laptop) {
   .vehicle-overview {
     max-width: 1400px;
-  	
+    
     .vehicle {
-  	  width: 48%;
-  	  float: left;
-  	  
-  	  &:nth-child(2n) {
-  		  margin-right: 4%;
-  	  }
-  	  
-	  &:nth-child(2),
-	  &:nth-child(3) {
-  		  margin-top: 0;
-  	  }
+      width: 48%;
+      float: left;
+      
+      &:nth-child(2n) {
+        margin-right: 4%;
+      }
+      
+    &:nth-child(2),
+    &:nth-child(3) {
+        margin-top: 0;
+      }
     }
   }
 }
@@ -254,6 +269,10 @@ body {
  * Images
  */
 
-img:not(:last-child) {
-  margin-bottom: .5rem;
+img {
+  margin: 0;
+  
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }

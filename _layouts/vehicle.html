@@ -1,15 +1,33 @@
 ---
 layout: default
 ---
-      <section class="vehicle">
-        <h1 class="heading"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+    <div class='page vehicle'>
+      <section>
+        <h1 class='heading'><a href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></h1>
         <img src='{{ page.images[0].url | prepend: site.baseurl }}'>
-        <dl>{% if page.year != "" and page.year != nil %}
-          <dt>Baujahr</dt><dd>{{ page.year }}</dd>{% endif %}{% if page.ccm != "" and page.ccm != nil %}
-          <dt>Hubraum</dt><dd>{{ page.ccm }} cm³</dd>{% endif %}{% if page.kw != "" and page.kw != nil %}
-          <dt>KW</dt><dd>{{ page.kw }}</dd>{% endif %}{% if page.ps != "" and page.ps != nil %}
-          <dt>PS</dt><dd>{{ page.ps }}</dd>{% endif %}
-        </dl>{% assign c = content | strip_newlines %}{% if c != '' %}
+        <table>{% if page.make != '' and page.make != nil %}
+          <tr>
+            <td>Marke</td>
+            <td>{{ page.make }}</td>
+          </tr>{% endif %}{% if page.type != '' and page.type != nil %}
+          <tr>
+            <td>Type</td>
+            <td>{{ page.type }}</td>
+          </tr>{% endif %}{% if page.year != '' and page.year != nil %}
+          <tr>
+            <td>Baujahr</td>
+            <td>{{ page.year }}</td>
+          </tr>{% endif %}{% if page.ccm != '' and page.ccm  != nil %}
+          <tr>
+            <td>Hubraum</td>
+            <td>{{ page.ccm }} cm³</td>
+          </tr>{% endif %}
+          <tr>
+            <td>Leistung</td>
+            <td>{% if page.kw != '' and page.kw != nil %}{{ page.kw | replace:'.',','  }} kW{% endif %}{% if page.ps != '' and page.ps != nil and page.kw != '' and page.kw != nil %}/{% endif %}{% if page.ps != '' and page.ps != nil %}{{ page.ps | replace:'.',',' }} PS{% endif %}</td>
+          </tr>
+        </table>{% assign c = content | strip_newlines %}{% if c != '' %}
         {{ content }}{% endif %}{% for img in page.images %}{% if img != page.images[0] %}
         <img src='{{ img.url | prepend: site.baseurl }}' alt='{{ img.alt }}'>{% endif %}{% endfor %}
       </section>
+   </div>
