@@ -12,6 +12,7 @@ sass:
 # Sitemap Plugin
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Exclusions
 exclude: [
