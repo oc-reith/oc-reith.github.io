@@ -11,6 +11,6 @@ owner:
   name: Hannes Oberladstätter
   gender: m
 images:
-  - url: /img/jeep-willis.jpg
-  - url: /img/jeep-willis-schalter.jpg
+  - url: /img/jeep-willis-overland.jpg
+  - url: /img/jeep-willis-overland-schalter.jpg
 ---
