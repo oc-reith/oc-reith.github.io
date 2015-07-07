@@ -1,10 +1,13 @@
 ---
 layout: vehicle
-title:  MG 8
+title:  MG A 1600
 
 make: MG
-type: 8
-ccm: 1600
+type: A 1600
+year: 1959
+ccm: 1588
+kw: 60
+ps: 80
 owner:
   name: Manfred Gager
   gender: m
