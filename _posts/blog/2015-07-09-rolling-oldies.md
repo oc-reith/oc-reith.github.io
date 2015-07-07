@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Rolling Oldies 2015
-date: 2015-07-09 11:00:00
 categories: event
 ---
 ![Rolling Oldies Logo](http://www.rollingoldies.at/wp-content/uploads/cropped-Aufzeichnen1.jpg)
