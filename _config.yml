@@ -9,7 +9,7 @@ markdown: kramdown
 sass:
   style: :compressed
 
-# Sitemap Plugin
+# Plugins
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
