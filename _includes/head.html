@@ -4,7 +4,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>{% assign current = page.url | downcase | split: '/' %}
   <title>{{ site.title }}{% if current[1] != nil %}{% if current[1] == 'blog' %}{% assign current = 'Blog' %} - {{ current }}{% endif %}{% if current[1] == 'fahrzeuge' %}{% assign current = 'Fahrzeuge' %} - {{ current }}{% endif %}{% if page.title != current %} - {{ page.title }}{% endif %}{% endif %}</title>
   <meta name='description' content='{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
-  <link rel='stylesheet' href='{{ site.baseurl }}/css/main.css'>
+  <link rel='stylesheet' href='{{ site.baseurl }}/css/main.css?v=1.0'>
   <link rel='canonical' href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}'>
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href='{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}' />
   <script>!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.insertBefore(d,q)}(window,document,'script','_gs');_gs('GSN-109362-G');</script>
