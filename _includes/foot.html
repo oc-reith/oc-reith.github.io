@@ -1,4 +1,10 @@
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
-<script>$(".page a:has(> img)").attr('data-lightbox', 'image-gallery')</script>
 <link href='//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css' rel='stylesheet'>
 <script src='/js/lightbox-2.7.1.de.min.js'></script>
+<script>
+var exts = ['png','jpg','jpeg','svg']
+$('.page a:has(> img)').each(function(){
+  if($(this).attr('href').match(new RegExp('('+exts.join('|')+')'), 'gi')) {
+    $(this).attr('data-lightbox', 'image-gallery')
+  }
+})</script>

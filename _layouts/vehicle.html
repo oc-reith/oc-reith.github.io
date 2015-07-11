@@ -4,7 +4,7 @@ layout: default
     <div class='page vehicle'>
       <section>
         <h1 class='heading'><a href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></h1>
-        <img src='{{ site.baseurl }}{% include directory url=page.url %}{{ page.images[0].url }}'>
+        <a href='{{ site.baseurl }}{% include directory url=page.url %}{{ page.images[0].url }}'><img src='{{ site.baseurl }}{% include directory url=page.url %}{{ page.images[0].url }}'></a>
         <table>{% if page.make != '' and page.make != nil %}
           <tr>
             <td>Marke</td>
@@ -28,6 +28,6 @@ layout: default
           </tr>
         </table>{% assign c = content | strip_newlines %}{% if c != '' %}
         {{ content }}{% endif %}{% for img in page.images %}{% if img != page.images[0] %}
-        <img src='{{ site.baseurl }}{% include directory url=page.url %}{{ img.url }}' alt='{{ img.alt }}'>{% endif %}{% endfor %}
+        <a href='{{ site.baseurl }}{% include directory url=page.url %}{{ img.url }}'><img src='{{ site.baseurl }}{% include directory url=page.url %}{{ img.url }}' alt='{{ img.alt }}'></a>{% endif %}{% endfor %}
       </section>
    </div>
