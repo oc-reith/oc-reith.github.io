@@ -276,3 +276,8 @@ img {
     margin-bottom: 1rem;
   }
 }
+
+img:not(:last-child),
+  a:not(:last-child) > img {
+  margin-bottom: 1rem;
+}
