@@ -1,10 +1,17 @@
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
 <link href='//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css' rel='stylesheet'>
-<script src='/js/lightbox-2.7.1.de.min.js'></script>
+<script src='//raw.githubusercontent.com/lokesh/lightbox2/1896b9e920591333c209566eaf7f462f73c064f3/dist/js/lightbox.min.js'></script>
 <script>
+lightbox.option({
+  'albumLabel': 'Bild %1 von %2',
+  'fadeDuration': 250,
+  'resizeDuration': 0
+})
+
 var exts = ['png','jpg','jpeg','svg']
 $('.page a:has(> img)').each(function(){
   if($(this).attr('href').match(new RegExp('('+exts.join('|')+')'), 'gi')) {
-    $(this).attr('data-lightbox', 'image-gallery')
+    $(this).attr('data-lightbox', 'image-gallery').attr('data-title', $(this).find('img').attr('alt'))
   }
-})</script>
+})
+</script>
