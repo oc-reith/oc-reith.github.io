@@ -109,13 +109,26 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
 
 ## 10. Vorstand
 
- 1. Der Vorstand muss aus mindestens zwei Personen bestehen:
-    Präsident und Vizepräsident.
- 2. Der Verein kann folgende weitere Funktionen besetzen: bis zu zwei Vizepräsidenten, Kassier, Kassier-Stellvertreter, Schriftführer, Schriftführer-Stellvertreter.
- 3. Jede Funktion im Vorstand ist persönlich auszuüben. Die Ausübung von Doppel/Mehrfach-Funktionen durch einzelne Vorstandsmitglieder ist nicht gestattet.
+Der Vorstand besteht aus sechs Mitgliedern:
+
+ -  Präsident/in und Vizepräsident/in
+ -  Schriftführer/in und Stellvertreter/in
+ -  Kassier/in und Stellvertreter/in
 
 
-## 11. Vorstand - Bestellung - Funktionsdauer
+## 11. Besondere Obliegenheiten einzelner Vorstandsmitglieder
+
+ 1. Der/die Präsident/in führt die laufenden Geschäfte des Vereins. Der die Schriftführer/in unterstützt den/die Präsident/in bei der Führung der Vereinsgeschäfte.
+ 2. Der/die Präsident/in vertritt den Verein nach außen. Schriftliche Ausfertigungen des Vereins bedürfen zu ihrer Gültigkeit der Unterschriften des/der Präsidenten/in und des Schriftführers/der Schriftführerin, in Geldangelegenheiten (vermögenswerte Disposition) des/der Präsidenten/in und des Kassiers/ der Kassierin. Rechtsgeschäfte zwischen Vorstandsmitgliedern und Verein bedürfen der Zustimmung eines anderen Vorstandsmitgliedes.
+ 3. Rechtsgeschäftliche Bevollmächtigungen, den Verein nach außen zu vertreten bzw. für ihn zu zeichnen, können ausschließlich in dem in Abs.2 genannten Vorstandsmitgliedern erteilt werden.
+ 4. Bei Gefahr im Verzug ist der/die Präsident/in berechtigt, auch in Angelegenheiten die in den Wirkungsbereich der Generalversammlung oder des Vorstandes fallen, unter eigener Verantwortung selbstständig Anordnungen zu treffen; im Innenverhältnis bedürfen diese jedoch der nachträglichen Genehmigung durch das zuständige Vereinsorgan.
+ 5. Der/die Präsident/in führt den Vorsitz in der Generalversammlung und im Vorstand.
+ 6. Der/die Schriftführer/in führt die Protokolle der Generalversammlung und des Vorstandes.
+ 7. Der/die Kassier/in ist für die ordnungsgemäße Geldgebarung des Vereins verantwortlich.
+ 8. Im Fall der Verhinderung treten an die Stelle des/der Präsidenten/in, des Schriftführers/der Schriftführerin oder des Kassiers/der Kassierin ihre Stellvertreter/innen.
+
+
+## 12. Vorstand - Bestellung - Funktionsdauer
 
  1. Der Vorstand wird von der Generalversammlung gewählt.
  2. Die Funktionsperiode des Vorstands beträgt drei Jahre; eine Wiederwahl ist möglich.
@@ -126,7 +139,7 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
  7. Die Vorstandsmitglieder können jederzeit schriftlich ihren Rücktritt erklären. Die Rücktrittserklärung ist an den Vorstand, im Falle des Rücktritts des gesamten Vorstands an die Generalversammlung zu richten. Der Rücktritt wird sofort wirksam, außer zu einem Zeitpunkt, wo dies dem Verein erheblichen Schaden zufügen könnte.
 
 
-## 12. Aufgaben des Vorstands
+## 13. Aufgaben des Vorstands
 
  1. Der Vorstand ist das „Leitungsorgan“ im Sinne des Vereinsgesetzes 2002. Ihm kommen alle Aufgaben zu, die nicht durch die Statuten einem anderen Vereinsorgan zugewiesen sind.
  2. In den Wirkungsbereich des Vorstands fallen insbesondere folgende Angelegenheiten:
@@ -141,14 +154,14 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
  3. Weitere Bestimmungen betreffend die Aufgaben des Vorstandes können auf Antrag des Vorstandes in einer von der Generalversammlung zu beschließenden Geschäftsordnung festgelegt werden.
 
 
-## 13. Vorstand - Vertretung des Vereins nach außen
+## 14. Vorstand - Vertretung des Vereins nach außen
 
  1. Betreffend die Vertretung nach außen gilt das Vier-Augen-Prinzip. Jeweils zwei der im Folgenden genannten Vorstandsmitglieder sind gemeinsam berechtigt den Verein nach außen zu vertreten: Präsident, Vizepräsident, Kassier, Schriftführer, Kassier-Stellvertreter, Schriftführer-Stellvertreter.
  2. Rechtsgeschäftliche Bevollmächtigungen, den Verein nach außen zu vertreten bzw. für ihn zu zeichnen, können ebenfalls jeweils von zwei der in Abs. 1 genannten Vorstandsmitglieder gemeinsam erteilt werden.
  3. Zur passiven Vertretung ist jedes Vorstandsmitglied allein berechtigt.
 
 
-## 14. Vorstand - Beschlussfassung - Erfordernisse
+## 15. Vorstand - Beschlussfassung - Erfordernisse
 
  1. Der Vorstand kann von jedem Vorstandsmitglied schriftlich oder mündlich einberufen werden.
  2. Der Vorstand ist beschlussfähig, wenn alle Vorstandsmitglieder eingeladen wurden und mindestens die Hälfte von ihnen anwesend ist.
@@ -156,10 +169,10 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
  4. Den Vorsitz führt jenes Vorstandsmitglied, das die übrigen Vorstandsmitglieder mehrheitlich dazu bestimmen.
 
 
-## 15. Rechnungsprüfer
+## 16. Rechnungsprüfer
 
  1. Die Rechnungsprüfer werden von der Generalversammlung gewählt.
- 2. Die Funktionsperiode der Rechnungsprüfer beträgt ein Rechnungsjahr (= Kalenderjahr). Wiederwahl ist möglich.
+ 2. Die Funktionsperiode der Rechnungsprüfer beträgt drei Rechnungsjahre (= Kalenderjahre). Wiederwahl ist möglich.
  3. Die Rechnungsprüfer dürfen keine Vorstandsmitglieder sein.
  4. Außer durch den Tod und Ablauf der Funktionsperiode erlischt die Funktion eines Rechnungsprüfers durch Enthebung oder Rücktritt.
  5. Die Generalversammlung kann jederzeit einen oder beide Rechnungsprüfer des Amtes entheben. Die Enthebung tritt sofort in Kraft.
@@ -167,14 +180,14 @@ Die für die Verwirklichung des Zwecks vorgesehenen Tätigkeiten und die Art der
  7. Die neuen Rechnungsprüfer sind schnellst möglich in einer außerordentlichen Generalversammlung zu bestellen.
 
 
-## 16. Schlichtungs-Komitee
+## 17. Schlichtungs-Komitee
 
  1. Zur Schlichtung von aus dem Vereinsverhältnis entstehenden Streitigkeiten ist das Schlichtungs-Komitee berufen. Es ist eine „Schlichtungseinrichtung“ im Sinne des Vereinsgesetzes 2002 und kein Schiedsgericht nach den §§ 577 ff ZPO.
  2. Das Schlichtungs-Komitee setzt sich aus fünf stimmberechtigten Vereinsmitgliedern zusammen. Es wird derart gebildet, dass ein Streitteil dem Vorstand zwei Schlichtungs-Komitee-Mitglieder schriftlich namhaft macht. Über schriftliche Aufforderung durch den Vorstand binnen sieben Tagen macht der andere Streitteil innerhalb von 14 Tagen seinerseits zwei Schlichtungs-Komitee-Mitglieder schriftlich namhaft. Nach schriftlicher Verständigung durch den Vorstand innerhalb von sieben Tagen wählen die namhaft gemachten Schlichtungs-Komitee-Mitglieder binnen weiterer 14 Tage ein fünftes stimmberechtigtes Mitglied zum Vorsitzenden des Schlichtungs-Komitees. Bei Stimmengleichheit entscheidet unter den Vorgeschlagenen das Los. Die Mitglieder des Schlichtungs-Komitees dürfen keinem Organ - mit Ausnahme der Generalversammlung - angehören, dessen Tätigkeit Gegenstand der Streitigkeit ist.
  3. Das Schlichtungs-Komitee fällt seine Entscheidung nach Gewährung beiderseitigen Gehörs bei Anwesenheit aller seiner Mitglieder mit einfacher Stimmenmehrheit. Es entscheidet nach bestem Wissen und Gewissen. Seine Entscheidungen sind vereinsintern endgültig.
 
 
-## 17. Freiwillige Auflösung des Vereins
+## 18. Freiwillige Auflösung des Vereins
 
  1. Die freiwillige Auflösung des Vereins kann nur in einer, zu diesem Zweck einberufenen, außerordentlichen Generalversammlung und nur mit Zweidrittelmehrheit der abgegebenen gültigen Stimmen beschlossen werden.
  2. Diese Generalversammlung hat auch - sofern Vereinsvermögen vorhanden ist - über die Abwicklung zu beschließen. Insbesondere hat sie einen Abwickler zu berufen und Beschluss darüber zu fassen, wem dieser das nach Abdeckung der Passiven verbleibende Vereinsvermögen zu übertragen hat. Dieses Vermögen kann soweit an die Mitglieder verteilt werden, als es den Wert der von diesen geleisteten Einlagen nicht übersteigt. Das darüber hinaus verbleibende Vermögen soll Vereinen zufallen, die gleiche oder ähnliche Zwecke wie dieser Verein verfolgen, und/oder wohltätigen Vereinen oder Organisationen.
