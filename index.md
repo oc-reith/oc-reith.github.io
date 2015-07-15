@@ -11,3 +11,6 @@ Wir restaurieren, pflegen und fahren Oldtimer getreu dem Motto: „Oldtimer sind
 
 Dieses Kulturgut zu pflegen und der Öffentlichkeit zugänglich zu machen, ist unser Ziel. 
 Wir führen gemeinsame Ausfahrten durch und treffen uns zum freundschaftlichen Erfahrungsaustausch und zu interessanten oder gemütlichen Anlässen.
+
+Wir sind unter folgender Email-Adresse erreichbar:  
+[oldtimerclubreith@gmail.com](mailto:oldtimerclubreith@gmail.com)
