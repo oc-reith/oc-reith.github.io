@@ -17,6 +17,7 @@ gems:
 # Exclusions
 exclude: [
   '.gitignore',
+  'ReadMe.md',
   'CNAME',
   'bower.json',
   'bower_components',
