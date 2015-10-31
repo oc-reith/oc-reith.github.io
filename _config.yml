@@ -2,7 +2,7 @@
 title: Oldtimerclub Reith im Alpbachtal
 description: Wir sind eine illustre Gruppe mit Spaß an historischen Fahrzeugen. Dies beinhaltet unter anderem die Restauration, Pflege und natürlich das Fahren mit unseren Oldies.
 baseurl: ''
-url: http://oldtimer-reith.tirol
+url: https://oldtimer-reith.tirol
 
 # Build settings
 markdown: kramdown
