@@ -7,7 +7,7 @@ type: 850 Spezial
 year: 1972
 ccm: 850
 ps: 48
-owner: 
+owner:
   name: Anton Oberladstätter
   gender: m
 images:

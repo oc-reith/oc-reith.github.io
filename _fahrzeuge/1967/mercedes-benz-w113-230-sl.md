@@ -8,7 +8,7 @@ year: 1967
 ccm: 2290
 kw: 110
 ps: 150
-owner: 
+owner:
   name: Manfred Gager
   gender: m
 images:

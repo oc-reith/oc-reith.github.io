@@ -7,7 +7,7 @@ type: 500 N
 year: 1966
 ccm: 650
 ps: 23
-owner: 
+owner:
   name: Veronika Rieser
   gender: f
 images:

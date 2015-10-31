@@ -7,7 +7,7 @@ type: 500 R
 year: 1973
 ccm: 594
 ps: 23
-owner: 
+owner:
   name: Martin Reiter
   gender: m
 images:

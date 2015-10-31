@@ -7,7 +7,7 @@ type: Käfer
 year: 1961
 ccm: 1200
 ps: 34
-owner: 
+owner:
   name: Klaus Kiegerl
   gender: m
 info: Export

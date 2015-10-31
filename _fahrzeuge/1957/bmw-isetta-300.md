@@ -7,7 +7,7 @@ type: Isetta 300
 year: 1957
 ccm: 298
 kw: 10
-owner: 
+owner:
   name: Christoph Raich
   gender: m
 images:

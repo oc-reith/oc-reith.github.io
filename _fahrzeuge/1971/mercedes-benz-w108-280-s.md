@@ -7,7 +7,7 @@ type: W108 280 S
 year: 1971
 ccm: 2778
 ps: 140
-owner: 
+owner:
   name: Josef Kollegger
   gender: m
 images:

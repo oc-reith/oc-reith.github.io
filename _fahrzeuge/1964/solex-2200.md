@@ -7,12 +7,9 @@ type: 2200
 year: 1964
 ccm: 49
 ps: 0.7
-owner: 
+owner:
   name: Franz Madersbacher
   gender: m
 images:
   - url: solex-2200.jpg
 ---
-
-
-Infos: http://www.50er-forum.de/wiki/index.php/Solex_2200

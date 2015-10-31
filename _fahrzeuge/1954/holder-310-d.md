@@ -7,7 +7,7 @@ type: 310 D
 year: 1954
 ccm: 500
 ps: 10
-owner: 
+owner:
   name: Franz Madersbacher
   gender: m
 images:
