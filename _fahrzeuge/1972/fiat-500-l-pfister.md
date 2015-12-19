@@ -5,13 +5,12 @@ title:  Fiat 500 Lusso
 make: Fiat
 type: 500 L
 year: 1972
-ccm: 740
-ps: 35
+ccm: 499
+ps: 18
 zyl: 2
 owner:
-  name: Hannes Oberladstätter
+  name: Andreas Pfister
   gender: m
 images:
-  - url: fiat-500-l.jpg
-  - url: fiat-500-l-emblem.jpg
+  - url: fiat-500-l-pfister.jpg
 ---
