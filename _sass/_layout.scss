@@ -9,9 +9,7 @@ html, body {
 }
 
 
-/**
- * Site header
- */
+// Site header
 
 .logo-wrapper {
   text-align: center;
@@ -20,7 +18,7 @@ html, body {
 
 .site-logo > svg {
   width: 240px;
-  
+
   path {
     fill: $logo-color;
   }
@@ -35,7 +33,7 @@ html, body {
   margin-top: 1.5rem;
   float: left;
   width: 100%;
-  
+
   ul {
     margin: 0;
     padding: 0;
@@ -47,7 +45,7 @@ html, body {
   clear: left;
   float: right;
   right: 50%;
-  
+
   > li {
     float: left;
     display: block;
@@ -61,7 +59,7 @@ html, body {
     list-style: none;
   float: left;
   display: block;
-  
+
   &:not(:last-child) {
     margin-right: 1rem;
   }
@@ -88,14 +86,14 @@ html, body {
 
 @include media-query-max($phone) {
   .site-nav {
-    
+
   ul {
     width: 100%;
   }
 
     li {
       width: 50%;
-    
+
     a {
       border-radius: 0;
     }
@@ -103,27 +101,27 @@ html, body {
       &:not(:last-child) {
       margin-right: 0;
       }
-    
+
     &:first-child a {
       border-top-left-radius: $menu-link-border-radius;
     }
-    
+
     &:nth-child(2) a {
       border-top-right-radius: $menu-link-border-radius;
     }
-    
+
     &:nth-last-child(2) a {
       border-bottom-left-radius: $menu-link-border-radius;
     }
-    
+
     &:last-child a {
       border-bottom-right-radius: $menu-link-border-radius;
     }
-    
+
     &:not(:nth-last-child(2)):not(:last-child) a {
       border-bottom: none;
     }
-    
+
     &:nth-child(2n) a {
       border-left: none;
     }
@@ -135,13 +133,11 @@ html, body {
 
 
 .site-nav {
-  
+
 }
 
 
-/**
- * Site footer
- */
+// Site footer
 
 body {
     display: table;
@@ -153,11 +149,11 @@ body {
   background: $footer-background-color;
   color: $footer-text-color;
   border-top: 1px solid darken($footer-background-color, 10%);
-  
+
   .wrapper {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
+
     > :last-child {
       margin-bottom: 0;
     }
@@ -178,9 +174,7 @@ body {
 }
 
 
-/**
- * Site Content
- */
+// Site Content
 
 .site-content > .wrapper {
   margin-top: 2.5rem;
@@ -193,7 +187,7 @@ body {
 }
 
 .page {
-  
+
   > article,
   > section {
     &:not(:nth-child(2)) {
@@ -215,9 +209,7 @@ body {
 }
 
 
-/**
- * Posts
- */
+// Posts
 
 .rss-subscribe {
   border-top: 1px solid $menu-link-background-color-hover;
@@ -225,9 +217,7 @@ body {
 }
 
 
-/**
- * Cars
- */
+// Cars
 
 .vehicle {
   table {
@@ -236,7 +226,7 @@ body {
     margin-bottom: 1rem;
     background: darken($menu-link-background-color, 2.5%);
     display: inline-table;
-    
+
     td {
       padding: .5rem .75rem;
       border: 1px solid darken($menu-link-background-color-hover, 2.5%);
@@ -247,15 +237,15 @@ body {
 @include media-query-min($laptop) {
   .vehicle-overview {
     max-width: 1400px;
-    
+
     .vehicle {
       width: 48%;
       float: left;
-      
+
       &:nth-child(2n) {
         margin-right: 4%;
       }
-      
+
     &:nth-child(2),
     &:nth-child(3) {
         margin-top: 0;
@@ -265,13 +255,11 @@ body {
 }
 
 
-/**
- * Images
- */
+// Images
 
 img {
   margin: 0;
-  
+
   &:not(:last-child) {
     margin-bottom: 1rem;
   }
@@ -280,4 +268,29 @@ img {
 img:not(:last-child),
   a:not(:last-child) > img {
   margin-bottom: 1rem;
+}
+
+
+// Videos
+
+.video-container {
+  height: 0;
+  position: relative;
+  padding-bottom: 100% / (16 / 9);
+  overflow: hidden;
+
+  embed,
+  iframe,
+  object {
+    border: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  [src*=youtu] {
+    height: 99.99999%;
+  }
 }
