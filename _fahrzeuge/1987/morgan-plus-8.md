@@ -3,7 +3,7 @@ layout: vehicle
 title:  Morgan +8
 
 make: Morgan
-type: +8
+type: '+8'
 year: 1987
 ccm: 3474
 owner:
