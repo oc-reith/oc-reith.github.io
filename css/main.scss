@@ -65,5 +65,6 @@ $footer-text-color: lighten($footer-background-color, 50%);
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     'base',
-    'layout'
+    'layout',
+    'lightbox'
 ;

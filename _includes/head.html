@@ -8,3 +8,24 @@
   <link rel='canonical' href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}'>
   <link rel='alternate' type='application/rss+xml' title='{{ site.title }}' href='{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}' />
   <script>!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.insertBefore(d,q)}(window,document,'script','_gs');_gs('GSN-109362-G');</script>
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com'>
+<script>
+function initLightbox() {
+  $(document).ready(function () {
+    $('.page a:has(> img)').each(function(){
+      if($(this).attr('href').match(new RegExp('\\.(png|jpe?g|svg)$'), 'gi')) {
+        $(this).attr('data-lightbox', 'image-gallery').attr('data-title', $(this).find('img').attr('alt'))
+      }
+    })
+  })
+
+  lightbox.option({
+    'albumLabel': 'Bild %1 von %2',
+    'fadeDuration': 250,
+    'resizeDuration': 0
+  })
+}
+</script>
+<script defer src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script defer src='//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js' onload="initLightbox()"></script>
