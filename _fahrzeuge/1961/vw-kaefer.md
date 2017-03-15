@@ -2,7 +2,7 @@
 layout: vehicle
 title:  VW Käfer
 
-make: VW
+make: Volkswagen
 type: Käfer
 year: 1961
 ccm: 1200

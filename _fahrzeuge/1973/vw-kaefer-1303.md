@@ -2,7 +2,7 @@
 layout: vehicle
 title:  VW Käfer 1303
 
-make: VW
+make: Volkswagen
 type: Käfer 1303
 year: 1973
 ccm: 2000
