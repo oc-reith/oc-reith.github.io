@@ -3,7 +3,7 @@
 <body>
 {% include header.html %}
   <div class="site-content">{% assign current = page.url | downcase | split: '/' %}
-    <div class="wrapper{% if current[1] == 'fahrzeuge' and current[2] == nil }} %} vehicle-overview{% endif %}">
+    <div class="wrapper{% if current[1] == 'fahrzeuge' and current[2] == nil %} vehicle-overview{% endif %}">
 {{ content }}
     </div>
   </div>
