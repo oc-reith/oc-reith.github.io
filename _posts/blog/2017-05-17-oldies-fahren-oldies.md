@@ -11,4 +11,7 @@ Rückblick Mai 2016:
   <iframe src='https://www.youtube.com/embed/gAYidzkekac' allowfullscreen></iframe>
 </div>
 <!--more-->
+<br/>
 Zur einer „Fahrt ins Blaue luden die Mitglieder des Oldtimerclubs Reith im Alpbachtal Seniorinnen und Senioren aus dem Alters- und Pflegeheim Reith. Bei strahlend blauem Wetter, ging es am Feiertag über die Alpbacher Höhenstraße zur Scheffachalm, wo die Wirtsleute zu Kaffee und Kuchen einluden. Begeistert von der herrlichen Aussicht ins Inntal und von den historischen Automobilen, war den Seniorinnen und Senioren ihre Freude ins Gesicht geschrieben. Die älteste Teilnehmerin war übrigens Jahrgang 1926, das älteste Fahrzeug ein Isetta aus dem Jahr 1957.
+
+[![](/img/2016-05-05-oldies.jpg)](/img/2016-05-05-oldies.jpg)
