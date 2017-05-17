@@ -3,8 +3,8 @@
       <div class='logo-wrapper'>
         <a class='site-logo' href='{{ site.baseurl }}/'>{% include logo.svg %}</a>
       </div>
-      <div 'nav-wrapper'>
-        <nav class='site-nav' role=navigation>
+      <div class='nav-wrapper'>
+        <nav class='site-nav' role='navigation'>
           <ul>{% assign current = page.url | downcase | split: '/' %}
             <li{% if current[1] == nil %} class='current'{% endif %}><a href='/'>Home</a></li>
             <li{% if current[1] == 'blog' %} class='current'{% endif %}><a href='/blog/'>Blog</a></li>
