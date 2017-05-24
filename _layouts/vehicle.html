@@ -4,6 +4,7 @@ layout: default
     <div class='page vehicle'>
       <section>
         <h1 class='heading'><a href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a></h1>
+        <p>Fahrer{% if page.owner.gender == 'f' %}in{% endif %}: {{ page.owner.name }}</p>
         <a href='{{ site.baseurl }}{% include directory url=page.url %}{{ page.images[0].url }}'><img src='{{ site.baseurl }}{% include directory url=page.url %}{{ page.images[0].url }}'></a>
         <table>{% if page.make != '' and page.make != nil %}
           <tr>
