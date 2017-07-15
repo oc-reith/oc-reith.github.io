@@ -25,4 +25,13 @@ Gertraud und Alfred Ditz aus Fürth auf Porsche 911 BJ 1979<br/>
 <br/>
 Wir bedanken uns bei allen Teilnehmern und freuen uns auf zukünftige Veranstaltungen!
 
-
+[![](/img/wertungsfahrt-2017/map.jpg)](/img/wertungsfahrt-2017/map.jpg)
+[![](/img/wertungsfahrt-2017/1.jpg)](/img/wertungsfahrt-2017/1.jpg)
+[![](/img/wertungsfahrt-2017/2.jpg)](/img/wertungsfahrt-2017/2.jpg)
+[![](/img/wertungsfahrt-2017/3.jpg)](/img/wertungsfahrt-2017/3.jpg)
+[![](/img/wertungsfahrt-2017/4.jpg)](/img/wertungsfahrt-2017/4.jpg)
+[![](/img/wertungsfahrt-2017/5.jpg)](/img/wertungsfahrt-2017/5.jpg)
+[![](/img/wertungsfahrt-2017/6.jpg)](/img/wertungsfahrt-2017/6.jpg)
+[![](/img/wertungsfahrt-2017/7.jpg)](/img/wertungsfahrt-2017/7.jpg)
+[![](/img/wertungsfahrt-2017/8.jpg)](/img/wertungsfahrt-2017/8.jpg)
+[![](/img/wertungsfahrt-2017/9.jpg)](/img/wertungsfahrt-2017/9.jpg)
