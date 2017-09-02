@@ -1,8 +1,8 @@
 ---
 layout: vehicle
-title:  Karman Ghia Type 14
+title:  VW Karman Ghia Type 14
 
-make: VW
+make: Volkswagen
 type: Karmann Ghia Type 14
 year: 1970
 ccm: 1600
