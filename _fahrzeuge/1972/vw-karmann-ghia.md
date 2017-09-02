@@ -10,5 +10,5 @@ owner:
   name: Stefan Thaler
   gender: m
 images:
-  - url: vw-karmann-ghia.jpg
+  - url: vw-karmann-ghia-1.JPG
 ---
