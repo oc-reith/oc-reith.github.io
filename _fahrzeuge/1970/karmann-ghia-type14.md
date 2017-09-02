@@ -1,6 +1,6 @@
 ---
 layout: vehicle
-title:  VW Karman Ghia Type 14
+title:  VW Karmann Ghia Type 14
 
 make: Volkswagen
 type: Karmann Ghia Type 14
