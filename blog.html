@@ -16,7 +16,9 @@ permalink: /blog/
                 {{ post.excerpt }}
             {% endif %}
           <footer>
-            <a href='{{ post.url | prepend: site.baseurl }}'>Weiterlesen … </a>
+			{% if post.content contains '<!--more-->' %}
+				<a href='{{ post.url | prepend: site.baseurl }}'>Weiterlesen … </a>
+            {% endif %}
           </footer>
         </article>{% endfor %}
         <footer class='rss-subscribe'>
