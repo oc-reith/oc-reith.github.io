@@ -13,10 +13,8 @@ sass:
   style: :compressed
 
 # Plugins
-gems:
-  - jekyll-coffeescript
-  - jekyll-redirect-from
-  - jekyll-sitemap
+plugins:
+  - jekyll-feed
 
 # Exclusions
 exclude: [
