@@ -1,10 +1,10 @@
 ---
 layout: vehicle
-title:  Bugatti Replica LEDL, Basis Vw Käfer 1300, Bj. 1969
+title:  Bugatti Replica LEDL, Basis Vw Käfer 1300 - Aufgebaut 1980
 
 make: Bugatti Replica
 type: LEDL
-year: 1980
+year: 1969
 ccm: 1300
 ps: 40
 owner:
@@ -12,4 +12,5 @@ owner:
   gender: m
 images:
   - url: bugatti-replica-ledl-1.jpg
+  - url: bugatti-replica-ledl-2.jpg
 ---
