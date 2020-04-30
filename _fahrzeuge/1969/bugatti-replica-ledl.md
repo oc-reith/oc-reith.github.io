@@ -11,6 +11,7 @@ owner:
   name: Martin Orgler
   gender: m
 images:
+  - url: bugatti-replica-ledl-3.jpg
   - url: bugatti-replica-ledl-1.jpg
   - url: bugatti-replica-ledl-2.jpg
 ---
