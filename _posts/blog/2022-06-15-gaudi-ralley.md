@@ -2,7 +2,7 @@
 layout: post
 title: Gaudi Ralley
 ---
-Am Samstag, den 2. Juli 2022 veranstalteten wir eine Gaudi Ralley. Die Veranstaltung wird im Rahmen der "Rolling Oldies - Österreichs schönster Oldie Fete" abgehalten.<br/>
+Am Samstag, den 2. Juli 2022 veranstalteten wir eine Gaudi Ralley.<br/>
 <br/>
 Das Motto lautet „Ins Brandenberger Tal“ so gilt es wieder, seine Route entsprechend dem Roadbook zu wählen. <br/><br/>
 Zu beachten sind die 3 „Sonderprüfungen“, in Aschau beim „Stegerstall“, in Kramsach beim „Haflingerhof“, sowie in Rattenberg beim „Café Lavazza“. Ziel der Runde ist es, die durch alle Teilnehmer gemittelte Zeit zu treffen.<br/> 
