@@ -6,6 +6,4 @@ Anlässlich unsers 10-jährigen Bestehens laden wir am 04. Mai 2025 zum Frühsho
 Für Speisen und Getränke ist bestens gesorgt.<br/>
 <br/>
 Die Veranstaltung findet nur bei trockenem Wetter statt.
-<br/>
-
 [![](/img/ocr-10j.jpg)](/img/ocr-10j.jpg)
