@@ -9,10 +9,10 @@ Mit jeder Stunde wurde das Wetter freundlicher – und damit wuchs auch der Andr
 Für das leibliche Wohl war bestens gesorgt: Mit einer vielfältigen Auswahl an Speisen und Getränken war für jeden Geschmack etwas dabei – von herzhaft bis süß, von Frühschoppenbier bis Kaffee und Kuchen.<br><br>
 Wir blicken auf ein rundum gelungenes Fest zurück und danken allen, die dabei waren und zum Gelingen beigetragen haben!<br>
 <br/>
-[![](/img/fruehshoppen/01.jpg)](/img/01.jpg)
-[![](/img/fruehshoppen/02.jpg)](/img/02.jpg)
-[![](/img/fruehshoppen/03.jpg)](/img/03.jpg)
-[![](/img/fruehshoppen/04.jpg)](/img/04.jpg)
-[![](/img/fruehshoppen/05.jpg)](/img/05.jpg)
-[![](/img/fruehshoppen/06.jpg)](/img/06.jpg)
+[![](/img/fruehshoppen/01.jpg)](/img/fruehshoppen/01.jpg)
+[![](/img/fruehshoppen/02.jpg)](/img/fruehshoppen/02.jpg)
+[![](/img/fruehshoppen/03.jpg)](/img/fruehshoppen/03.jpg)
+[![](/img/fruehshoppen/04.jpg)](/img/fruehshoppen/04.jpg)
+[![](/img/fruehshoppen/05.jpg)](/img/fruehshoppen/05.jpg)
+[![](/img/fruehshoppen/06.jpg)](/img/fruehshoppen/06.jpg)
 
